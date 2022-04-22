@@ -1,0 +1,87 @@
+body{
+	background-color:#F08080; 
+	font-family: 'Montserrat', Abel;
+}
+h1{
+	text-align: center;
+	font-size:65px;
+}
+p{
+	font-size:40px;
+}
+h1{
+	font-size:550%;
+	letter-spacing: 10px
+}
+img{
+	width: 30%;
+	height: 40%;
+}
+.place{
+	height:330px;
+	width:440px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+ol{
+	list-style-type: upper-roman;
+}
+ol{
+	list-style-type: lower-alpha;
+}
+ol{
+	list-style-type: upper-roman;
+}
+ol{
+	list-style-type: lower-alpha;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+#topBanner{
+	display:flex;
+	justify-content: center;
+}
+#banner{
+	background-color: white;
+	padding-left: 700px;
+	padding-right: 700px;
+	
+}
+
+#menu{
+	transform: translate(1%, -530%);
+	width:6%;
+	height:11%;
+}
+h1{
+	position:absolute;
+}
+h2{
+	position:absolute;
+}
+#topBanner > div, h1 #topBanner > h2{
+	position:absolute;
+}
+p{
+	z-index: 1;
+}
+p{
+	z-index: -1;
+}
+#signin{
+	transform: translate(1%, -400%);
+	width:6%;
+	height:6%;
+}
+#cards{
+	display:flex;
+	justify-content: space-between;
+}
+#Navmenu{
+	transform: translate(1%, 500%);
+	display: flex;
+	justify-content: space-between;
+}
